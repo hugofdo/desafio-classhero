@@ -3,12 +3,12 @@
 void main()
 {
 
-    char nomeHeroi[5][15] = "";
-    unsigned int xp[5] = 0;
-    int i = 0;
-    char nivel[15] = "";
+    char nomeHeroi[5][15];
+    unsigned int xp[5];
+    int i;
+    char nivel[15];
 
-    printf("Bem vindo ao indicador de nível de herói!\nIremos dizer qual é seu nível baseado no valor de XP!");
+    printf("Bem vindo ao indicador de nível de heroi!\nIremos dizer qual e seu nivel baseado no valor de XP!");
 
     for (i = 0; i < 5; i++)
     {
@@ -54,6 +54,6 @@ void main()
             strcpy(nivel, "Radiante");
         }
 
-        printf("O herói %d de nome %s apresenta o nível %s\n", i + 1, nomeHeroi[i], nivel);
+        printf("O heroi %d de nome %s apresenta o nivel %s\n", i + 1, nomeHeroi[i], nivel);
     }
 }
